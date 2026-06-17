@@ -4,36 +4,38 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>3D Shop</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
     <div class="container">
         <header>
-            <button class="btn">
+            <button class="btn btn-head">
                 Наша команда
             </button>
 
-            <button class="btn">
+            <button class="btn btn-head">
                 Примеры работ
             </button>
 
-            <button class="btn">
+            <button class="btn btn-head">
                 Прайс
             </button>
 
-            <button class="btn">
+            <button class="btn btn-head">
                 Отзывы
             </button>
 
-            <img src="img/лого.png" alt="">
+            <img class = "logo" src="img/лого.png" alt="">
         </header>
 
         <section class="hero">
             <div class="hero__content">
-                <p>
+                <img class = "hero__img" src="img/медуза_главнаяя.png" alt="">
+                <p class="hero__text">
                     The Removal Team
                 </p>
 
-                <p>
+                <p class="hero__text1">
                     Мы идеальны для вас, если вам нужны аккуратные ассеты 
                     для инди-игр, визуализации простых объектов или 3D-элементы
                     для веб-сайтов, а не блокбастер уровня Pixar
@@ -47,39 +49,39 @@
                     Заказать сейчас
                 </button>
 
-                <p>
+                <p class="hero__text2">
                     The Removal Team
                 </p>
 
-                <p>
+                <p class="hero__text3">
                     The Removal Team
                 </p>
 
                 <div class="hero-card">
-                    <h1>
+                    <h1 class="hero-card__title">
                         Кто мы такие?
                         The Removal Team!
                     </h1>
 
-                    <p>
+                    <p class="hero-card__text">
                         Мы студенты. У нас нет 10 лет опыта в индустрии геймдева, но у нас есть:
                     </p>
 
-                    <ul>
-                        <li>
+                    <ul class="hero-card__list">
+                        <li class="hero__list">
                             Свежий взгляд без профессионального выгорания
                         </li>
-                        <li>
+                        <li class="hero__list">
                             Железная дисциплина разработчиков (мы соблюдаем дедлайны)
                         </li>
-                        <li>
+                        <li class="hero__list">
                             Горящие глаза и желание сделать круто даже если модель простая
                         </li>
                     </ul>
 
                 </div>
 
-                <p>
+                <p class="hero__text4">
                     Вопрос 1: Вы студенты, почему я должен вам доверять?
                     Ответ: Потому что мы голодны до опыта и качественных кейсов.
                     Мы не будем делать работу "на отвали". Каждая ваша модель
@@ -105,40 +107,42 @@
                     <div class="description-card__name">
                         Мы не боремся за фотореалистичных людей или сложную симуляцию жидкостей.Но вот здесь мы чувствуем себя уверенно:
                     </div>
-                    <ul class="description-card__menu">
-                        <li>
+                    <ul class="description-card__list">
+                        <li class="description__list">
                             Hard Surface Modeling: Предметы, техника, мебель, гаджеты. Чёткие грани, правильная топология.
                         </li>
-                        <li>
+                        <li class="description__list">
                             Low-Poly Assets: Оптимизированные модели для игр и веба. Минимум полигонов - максимум стиля.
                         </li>
-                        <li>
+                        <li class="description__list">
                             Текстурирование (Basics UV & Shading): Простые материалы, запечённые карты нормалей, работа с цветом.
                         </li>
-                        <li>
+                        <li class="description__list">
                             Интеграция в Web: Так как мы вебы, мы знаем как экспортировать модель так, 
                             чтобы она не "положила" ваш браузер (glTF, GLB, оптимизация веса).
                         </li>
                     </ul>
 
-                    <img class="description-card__img" src="img/медузы фон.png" alt="">
+                    <button class="btn btn-svyaz">
+                        Связаться с нами
+                    </button>
                 </div>
 
                 <div class="description-card">
                     <div class="description-card__name">
                         Мы ценим качество выше количества. Поэтому сейчас мы не берём заказы на:
                     </div>
-                    <ul class="description-card__menu">
-                        <li>
+                    <ul class="description-card__list">
+                        <li class="description__list">
                             Фотореалистичных персонажей и сложную анимацию лиц.
                         </li>
-                        <li>
+                        <li class="description__list">
                             Архитектурную визуализацию интерьеров (пока учим свет и камеры)
                         </li>
-                        <li>
+                        <li class="description__list">
                             Срочные задачи "нужно вчера" (мы учимся и работаем в своём темпе)
                         </li>
-                        <li>
+                        <li class="description__list">
                             Исправление чужих "сломанных" моделей с ужасной топологией (проще сделать заново)
                         </li>
                     </ul>
@@ -150,7 +154,7 @@
 
         <section class="models">
             <img src="img/рыбы.png" alt="">
-            <p>
+            <p class="models__text">
                 Морские обитатели в Low-Poly стиле. Каждая модель оптимизирована для игр:
                 чистая топология, правильные UV-развёртки, готовые к текстурированию.
                 Хотите так же? Мы возьмёмся за ваш проект!
@@ -158,7 +162,7 @@
             <img src="img/черепаха.png" alt="">
 
             <img src="img/скат.png" alt="">
-            <p>
+            <p class="models__text1">
                 Морские обитатели в Low-Poly стиле. Каждая модель оптимизирована для игр:
                 чистая топология, правильные UV-развёртки, готовые к текстурированию.
                 Хотите так же? Мы возьмёмся за ваш проект!
@@ -171,20 +175,20 @@
 
         <section class="video">
             <div class="video__content">
-                <ul>
-                    <li>
+                <ul class="video-list">
+                    <li class="video-list__item">
                         Бриф и обсуждение
                     </li>
-                    <li>
+                    <li class="video-list__item">
                         Блокинг (Черновик)
                     </li>
-                    <li>
+                    <li class="video-list__item">
                         Детализация и текстуры
                     </li>
-                    <li>
+                    <li class="video-list__item">
                         Демонстрация и правки
                     </li>
-                    <li>
+                    <li class="video-list__item">
                         Финальный рендер и сдача
                     </li>
                 </ul>
@@ -197,11 +201,11 @@
             <div class="price__grid">
                 <div class="price-card">
                     <div class="price-card__name">
-                        <p>
+                        <p class="price__main">
                             Простой объект/Проп
                         </p>
 
-                        <p>
+                        <p class="price__second">
                             (например: кружка, меч, простой ящик, мебель)
                         </p>
                     </div>
@@ -211,11 +215,11 @@
 
                 <div class="price-card">
                     <div class="price-card__name">
-                        <p>
+                        <p class="price__main">
                             Средняя сложность
                         </p>
 
-                        <p>
+                        <p class="price__second">
                             детализированный предмет, простой персонаж, стилизованное оружие
                         </p>
                     </div>
@@ -225,11 +229,11 @@
 
                 <div class="price-card">
                     <div class="price-card__name">
-                        <p>
+                        <p class="price__main">
                             Небольшая сцена
                         </p>
 
-                        <p>
+                        <p class="price__second">
                             композиция из нескольких объектов с настроенным светом
                         </p>
                     </div>
@@ -327,6 +331,25 @@
             </div>
         </section>
     </div>
+
+    <form action="" method="post">
+        <h2>
+            Отправить запрос на создание 3D модели
+        </h2>
+        <fieldset>
+            <label for="Email">Email</label>
+            <input type="email" id="email" name="email" placeholder="Введите свой email">
+        </fieldset>
+        <fieldset>
+            <label for="name">Имя</label>
+            <input type="text" id="name" required placeholder="Введите ваше имя">
+        </fieldset>
+        <fieldset>
+            <div>
+                <input class="btn btn-otpr" type="submit" value="Отправить!"/>
+            </div>
+        </fieldset>
+    </form>
 
     <footer class="footer">
         <div class="contact">
