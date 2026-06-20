@@ -101,6 +101,25 @@
             </div>
         </section>
 
+        <form action="" method="post">
+        <h2>
+            Отправить запрос на создание 3D модели
+        </h2>
+        <fieldset>
+            <label for="Email">Email</label>
+            <input type="email" id="email" name="email" placeholder="Введите свой email">
+        </fieldset>
+        <fieldset>
+            <label for="name">Имя</label>
+            <input type="text" id="name" required placeholder="Введите ваше имя">
+        </fieldset>
+        <fieldset>
+            <div>
+                <input class="btn btn-otpr" type="submit" value="Отправить!"/>
+            </div>
+        </fieldset>
+    </form>
+
         <section description>
             <div class="description__grid">
                 <div class="description-card">
@@ -147,21 +166,21 @@
                         </li>
                     </ul>
                     
-                    <img class="description-card__img" src="img/атом.png" alt="">
+                    <!-- <img class="description-card__img" src="img/атом.png" alt=""> -->
                 </div>
             </div>
         </section>
 
         <section class="models">
-            <img src="img/рыбы.png" alt="">
+            <img class = "riba" src="img/рыбы.png" alt="">
             <p class="models__text">
                 Морские обитатели в Low-Poly стиле. Каждая модель оптимизирована для игр:
                 чистая топология, правильные UV-развёртки, готовые к текстурированию.
                 Хотите так же? Мы возьмёмся за ваш проект!
             </p>
-            <img src="img/черепаха.png" alt="">
+            <img class = "cherepaha" src="img/черепаха.png" alt="">
 
-            <img src="img/скат.png" alt="">
+            <img class = "scat" src="img/скат.png" alt="">
             <p class="models__text1">
                 Морские обитатели в Low-Poly стиле. Каждая модель оптимизирована для игр:
                 чистая топология, правильные UV-развёртки, готовые к текстурированию.
@@ -332,39 +351,22 @@
         </section>
     </div>
 
-    <form action="" method="post">
-        <h2>
-            Отправить запрос на создание 3D модели
-        </h2>
-        <fieldset>
-            <label for="Email">Email</label>
-            <input type="email" id="email" name="email" placeholder="Введите свой email">
-        </fieldset>
-        <fieldset>
-            <label for="name">Имя</label>
-            <input type="text" id="name" required placeholder="Введите ваше имя">
-        </fieldset>
-        <fieldset>
-            <div>
-                <input class="btn btn-otpr" type="submit" value="Отправить!"/>
-            </div>
-        </fieldset>
-    </form>
+    
 
     <footer class="footer">
         <div class="contact">
             <img src="img/вк.png" alt="">
-            <a href="#">vk.com/team</a>
+            <a href="#" class="oi">vk.com/team</a>
         </div>
 
         <div class="contact">
             <img src="img/телега.png" alt="">
-            <a href="#">@theremovalteam</a>
+            <a href="#" class="oi">@theremovalteam</a>
         </div>
 
         <div class="contact">
             <img src="img/м.png" alt="">
-            <a href="#">theremovalteam@gmail.com</a>
+            <a href="#" class="oi">theremovalteam@gmail.com</a>
         </div>
 
         <img src="img/лого.png" alt="">
