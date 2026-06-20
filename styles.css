@@ -373,3 +373,8 @@ textarea:focus{
     text-decoration: none;
     color:#fff;
 }
+
+.models__text,
+.models__text1{
+    width: 500px;
+}
